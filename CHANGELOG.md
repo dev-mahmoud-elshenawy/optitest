@@ -12,6 +12,12 @@ Follows **[Semantic Versioning](https://semver.org)**:
 
 ---
 
+### 🛠 [1.0.1] — Documentation Polish
+
+- 📚 **Documentation**: minor README improvements for better **pub.dev** rendering
+
+---
+
 ### 🎯 [1.0.0] — Initial Release
 
 - 🆕 **New Features**:

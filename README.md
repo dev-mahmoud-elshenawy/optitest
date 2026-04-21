@@ -8,7 +8,7 @@
 <p align="center">
   <a href="https://pub.dev/packages/optitest"><img src="https://img.shields.io/pub/v/optitest?style=flat-square&color=blue&label=pub&logo=flutter&logoColor=white" alt="Pub"/></a>
   <img src="https://img.shields.io/badge/Dependencies-Zero-brightgreen?style=flat-square&logo=dart&logoColor=white" alt="Zero deps"/>
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="License"/></a>
+  <a href="https://github.com/dev-mahmoud-elshenawy/optitest/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="License"/></a>
 </p>
 
 <p align="center">
@@ -73,7 +73,7 @@ Column(
 // → btn_login_submit_loading
 ```
 
-Full working sample in [`example/`](./example).
+Full working sample in [`example/`](https://github.com/dev-mahmoud-elshenawy/optitest/tree/main/example).
 
 ---
 
@@ -81,10 +81,10 @@ Full working sample in [`example/`](./example).
 
 | Guide | What's inside |
 |---|---|
-| 📘 **[Usage Guide](./doc/USAGE.md)** | Every pattern — inputs, lists, state variants, anti-patterns |
-| 🔑 **[Key Reference](./doc/KEYS.md)** | All 30 element types, prefixes, state suffixes |
-| 🤖 **[Appium Integration](./doc/APPIUM.md)** | Locators for iOS, Android, WebdriverIO, Flutter Driver |
-| ✅ **[Testing Best Practices](./doc/TESTING.md)** | Tag by intent, namespace per screen, index lists |
+| 📘 **[Usage Guide](https://github.com/dev-mahmoud-elshenawy/optitest/blob/main/doc/USAGE.md)** | Every pattern — inputs, lists, state variants, anti-patterns |
+| 🔑 **[Key Reference](https://github.com/dev-mahmoud-elshenawy/optitest/blob/main/doc/KEYS.md)** | All 30 element types, prefixes, state suffixes |
+| 🤖 **[Appium Integration](https://github.com/dev-mahmoud-elshenawy/optitest/blob/main/doc/APPIUM.md)** | Locators for iOS, Android, WebdriverIO, Flutter Driver |
+| ✅ **[Testing Best Practices](https://github.com/dev-mahmoud-elshenawy/optitest/blob/main/doc/TESTING.md)** | Tag by intent, namespace per screen, index lists |
 
 ---
 
@@ -120,4 +120,4 @@ Built with ❤️ by **[Mahmoud El Shenawy](https://github.com/dev-mahmoud-elshe
 
 ## 📜 License
 
-[MIT](./LICENSE) — free for personal and commercial use.
+[MIT](https://github.com/dev-mahmoud-elshenawy/optitest/blob/main/LICENSE) — free for personal and commercial use.
