@@ -1,0 +1,27 @@
+# Files not needed in the published package
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Git and CI
+.github/
+.gitignore
+
+# Flutter/Dart tooling
+.fvm/
+.fvmrc
+.dart_tool/
+build/
+
+# Example project build artifacts (keep sources — pub.dev renders them)
+example/.dart_tool/
+example/build/
+example/pubspec.lock
+
+# OS files
+.DS_Store
+Thumbs.db

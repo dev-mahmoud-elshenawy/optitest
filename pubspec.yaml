@@ -1,0 +1,33 @@
+# Created By: Mahmoud El Shenawy (Dev.M.ElShenawy@Icloud.com)
+name: optitest
+description: OptiTest — stable automation keys and testable widget wrappers for Flutter apps driven by Appium, Flutter Driver, or integration tests.
+version: 1.0.0
+homepage: https://github.com/dev-mahmoud-elshenawy/optitest
+repository: https://github.com/dev-mahmoud-elshenawy/optitest
+issue_tracker: https://github.com/dev-mahmoud-elshenawy/optitest/issues
+funding:
+  - https://github.com/sponsors/dev-mahmoud-elshenawy
+license: MIT
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+  flutter: '>=3.10.0'
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
