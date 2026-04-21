@@ -11,8 +11,7 @@ void main() {
     });
 
     test('appends state suffix when provided', () {
-      final key =
-          TestKey.button('profile_save', state: ElementState.disabled);
+      final key = TestKey.button('profile_save', state: ElementState.disabled);
       expect(key.value, 'btn_profile_save_disabled');
     });
 

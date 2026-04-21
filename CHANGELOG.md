@@ -1,12 +1,30 @@
-# Changelog
+# 📌 Changelog
 
-All notable changes to **OptiTest** will be documented here.
+All notable changes to **OptiTest** are documented here. Most recent release at the top.
 
-## 1.0.0 — Initial Release
+## 🔄 Versioning Strategy
 
-- `Testable` widget — wraps any child with a stable `ValueKey` and a `Semantics.identifier` for Appium / Flutter Driver / integration tests.
-- `TestKey` with 30 element factories (`button`, `input`, `radio`, `listItem`, …) producing deterministic keys.
-- `ElementType` enum — 3-char prefix per element kind, collision-free.
-- `ElementState` enum — optional state suffix (`disabled`, `error`, `loading`, …).
-- 40-character truncation to stay within Appium/Semantics driver limits.
-- Zero runtime dependencies outside the Flutter SDK.
+Follows **[Semantic Versioning](https://semver.org)**:
+
+- 🚀 **MAJOR** — breaking API changes
+- 🌟 **MINOR** — backward-compatible features
+- 🛠 **PATCH** — backward-compatible fixes
+
+---
+
+### 🎯 [1.0.0] — Initial Release
+
+- 🆕 **New Features**:
+  - `Testable` widget — applies a stable `ValueKey` + `Semantics.identifier` for Appium, Flutter Driver, and integration tests
+  - `TestKey` — 30 element factories (`button`, `input`, `radio`, `listItem`, `bottomSheet`, …) producing deterministic keys
+  - `ElementType` enum — 3-char prefix per element kind, collision-free
+  - `ElementState` enum — optional state suffix (`disabled`, `error`, `loading`, `selected`, …)
+  - 40-character auto-truncation to stay within Appium / Semantics driver limits
+
+- 📚 **Documentation**:
+  - Usage guide, key reference, Appium integration, and testing best practices under [`doc/`](./doc)
+  - Working [`example/`](./example) demonstrating login-style flow with `Testable`
+
+- ⚙️ **Infrastructure**:
+  - Zero runtime dependencies outside the Flutter SDK
+  - MIT licensed, pub.dev ready
