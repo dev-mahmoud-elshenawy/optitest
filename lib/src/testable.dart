@@ -25,6 +25,16 @@ class Testable extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    assert(
+      child is! ParentDataWidget,
+      'Testable must not wrap a ParentDataWidget (Expanded, Flexible, '
+      'Positioned, TableCell, etc.). It inserts a Semantics RenderObject '
+      'between the ParentDataWidget and its Flex/Stack/Table parent, which '
+      'silently neutralizes the parent data and breaks layout. '
+      'Wrap the ParentDataWidget\'s child instead, then place the '
+      'ParentDataWidget around Testable. '
+      'Got: ${child.runtimeType}',
+    );
     return Semantics(
       identifier: testId.value,
       child: KeyedSubtree(

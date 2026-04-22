@@ -12,6 +12,13 @@ Follows **[Semantic Versioning](https://semver.org)**:
 
 ---
 
+### 🛠 [1.0.2] — Layout Safety Guardrail
+
+- 🛡 **Safety**: `Testable` asserts in debug that `child` is not a `ParentDataWidget` (`Expanded`, `Flexible`, `Positioned`, …), which would otherwise break `Flex`/`Stack` layout silently
+- ⚙️ **Debug-only**: zero cost in release builds
+
+---
+
 ### 🛠 [1.0.1] — Documentation Polish
 
 - 📚 **Documentation**: minor README improvements for better **pub.dev** rendering
